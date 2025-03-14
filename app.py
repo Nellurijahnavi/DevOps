@@ -10,4 +10,4 @@ def register():
         return render_template('succes.html')
     return render_template('reg.html')
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+   app.run(debug=True)
